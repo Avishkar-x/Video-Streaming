@@ -1,0 +1,14 @@
+{
+  "name": "youtube",
+  "version": "1.0.0",
+  "description": "A backend oriented youtube clone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "backend"
+  ],
+  "author": "Avishkar Mali",
+  "license": "ISC"
+}
