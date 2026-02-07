@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 import { DB_NAME } from "./constants.js";
 import express from "express";
 import connectDB from "./db/index.js";
-
+import { app } from "./app.js";
 
 // way to import .env
 // require('dotenv').config({path:'./env'})
@@ -32,3 +32,6 @@ dotenv.config({
 
 // Another way to connect
 connectDB();
+app.listen(process.env.PORT, () => {
+    console.log(`Listening at port ${process.env.PORT}`);
+});
